@@ -1,0 +1,16 @@
+api: 4
+id: cherry.bridge
+name: 樱桃
+author: dodobird1 and the HT^2 club
+description: 让 Thonny 里的樱桃按钮把当前代码交给角色。语音和联网都不用。
+version: 0.1.0
+entry: plugin:CherryBridge
+enabled: true
+provides: []
+requires:
+  - sakura.host.conversation
+  - sakura.host.logging
+presentation:
+  kind: extension
+  category: tools
+  icon: sprout

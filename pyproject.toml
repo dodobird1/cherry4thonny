@@ -1,0 +1,13 @@
+[project]
+name = "cherry"
+version = "0.1.0"
+description = "Thonny buttons that ask Sakura for a short Chinese hint. The student types every change."
+requires-python = ">=3.10"
+license = { text = "CC-BY-NC-ND-4.0" }
+authors = [{ name = "dodobird1 and the HT^2 club" }]
+
+[tool.setuptools.packages.find]
+include = ["cherry*", "thonnycontrib*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
